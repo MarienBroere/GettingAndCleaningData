@@ -28,5 +28,4 @@ tidy_data_average <- tidy_data %>%
         gather(variable, value, - subject, -activity) %>% 
         group_by(subject, activity, variable) %>% summarise(mean(value))
 
-write.table(tidy_data, "tidy_data.txt")
-write.table(tidy_data_average, "tidy_data_average.txt")
+write.table(tidy_data_average, "tidy_data_average.txt", row.name = FALSE)
