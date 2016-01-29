@@ -1,11 +1,11 @@
-Getting and Cleaning Data - Course Project
+#Getting and Cleaning Data - Course Project
 
 
-Procedure:
+##Procedure:
 1. Dowload data: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2. Run R script: run_analysis.R
 
-The steps in the R script are:
+##The steps in the R script are:
 1. Reading source files
 2. Merges test and train files, add subject and activity to each observation
 3. Adds columns names
@@ -14,7 +14,7 @@ The steps in the R script are:
 6. Write tidy_data and tidy_data_average to .txt file
 
 
-Input Files: 
+##Input Files: 
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 - 'features.txt': List of all features.
 - 'activity_labels.txt': Links the class labels with their activity name.
@@ -25,8 +25,6 @@ Input Files:
 
 See the UCI HAR Dataset directory for a more detailed description of these files.
 
-Output Files:
+##Output Files:
 - tidy_data.txt
 - tidy_data_average.txt
-"# GettingAndCleaningData" 
-# GettingAndCleaningData
